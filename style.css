@@ -1,0 +1,31 @@
+
+body{
+    background: url(фон.png);
+    font-family: sans-serif;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.wrapper{
+    color: brown;
+    position: center;
+    margin:0 auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    background-color: rgba(0, 200, 0, 0.5);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.wrong{
+    background-color: rgb(255, 44, 55);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.hidden{
+    display: none;
+}
+.opend{
+    background-color: skyblue;
+}
